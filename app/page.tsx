@@ -137,8 +137,11 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-            Focused on creating intuitive and performant web experiences.
-            Bridging the gap between design and development.
+            {/* Focused on creating intuitive and performant web experiences.
+            Bridging the gap between design and development. */}
+            Ứng dụng AI hiệu quả trong công việc và cuộc sống. 
+            <br />
+            AI không phải là phép thuật, nó là khoa học – kết quả của sự nỗ lực, cống hiến và đổi mới.
           </p>
         </div>
       </motion.section>
@@ -147,7 +150,7 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <h3 className="mb-5 text-lg font-medium">Selected Projects</h3>
+        <h3 className="mb-5 text-lg font-medium">Dự án đã tham gia</h3>
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
           {PROJECTS.map((project) => (
             <div key={project.name} className="space-y-2">
@@ -176,7 +179,7 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <h3 className="mb-5 text-lg font-medium">Work Experience</h3>
+        <h3 className="mb-5 text-lg font-medium">Kinh nghiệm làm việc</h3>
         <div className="flex flex-col space-y-2">
           {WORK_EXPERIENCE.map((job) => (
             <a
@@ -250,9 +253,9 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <h3 className="mb-5 text-lg font-medium">Connect</h3>
+        <h3 className="mb-5 text-lg font-medium">Liên hệ</h3>
         <p className="mb-5 text-zinc-600 dark:text-zinc-400">
-          Feel free to contact me at{' '}
+          Liên hệ với tôi qua email{' '}
           <a className="underline dark:text-zinc-300" href={`mailto:${EMAIL}`}>
             {EMAIL}
           </a>

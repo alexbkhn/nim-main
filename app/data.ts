@@ -29,46 +29,54 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
-    name: 'Motion Primitives Pro',
+    name: 'Ứng dụng AI trong lập trình Web',
     description:
-      'Advanced components and templates to craft beautiful websites.',
+      'Sử dụng AI trong việc lập trình, tối ưu hóa quy trình phát triển Web.',
     link: 'https://pro.motion-primitives.com/',
     video:
       'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
     id: 'project1',
   },
   {
-    name: 'Motion Primitives',
-    description: 'UI kit to make beautiful, animated interfaces.',
+    name: 'Ứng dụng AI trong công việc',
+    description: 'Sử dụng AI để tối ưu hóa quy trình làm việc.',
     link: 'https://motion-primitives.com/',
     video:
       'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
     id: 'project2',
   },
+  {
+    name: 'Ứng dụng AI trong cuộc sống',
+    description: 'Sử dụng AI để học tập những điều mới mẻ mỗi ngày.',
+    link: 'https://motion-primitives.com/',
+    video:
+      'https://youtube.com/shorts/nxsy7F4SUiQ?si=QhePo86iZ0mt5_8P',
+    id: 'project3',
+  },
 ]
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
-    company: 'Reglazed Studio',
-    title: 'CEO',
-    start: '2024',
-    end: 'Present',
+    company: 'Viettel',
+    title: 'Kỹ sư điện tử viễn thông',
+    start: '2014',
+    end: 'Nay',
     link: 'https://ibelick.com',
     id: 'work1',
   },
   {
-    company: 'Freelance',
-    title: 'Design Engineer',
-    start: '2022',
-    end: '2024',
+    company: 'Dolphin Technology',
+    title: 'Kỹ sư thiết kế vi mạch',
+    start: '2013',
+    end: '2014',
     link: 'https://ibelick.com',
     id: 'work2',
   },
   {
-    company: 'Freelance',
-    title: 'Front-end Developer',
-    start: '2017',
-    end: 'Present',
+    company: 'EDABK Lab - Đại học Bách Khoa Hà Nội',
+    title: 'Sinh viên',
+    start: '2010',
+    end: '2013',
     link: 'https://ibelick.com',
     id: 'work3',
   },
@@ -76,30 +84,17 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
 
 export const BLOG_POSTS: BlogPost[] = [
   {
-    title: 'Exploring the Intersection of Design, AI, and Design Engineering',
-    description: 'How AI is changing the way we design',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
+    title: 'Meta AI tiến bước đầu sang siêu trí tuệ',
+    description: 'Meta vừa bước một chân chậm rãi nhưng chắc vào vùng đất gyi trí tuệ nhân tạo siêu việt (ASI). CEO Mark Zuckerberg xác nhận rằng những hệ thống AI mới nhất của công ty đang bắt đầu tự cải thiện mà không cần con người can thiệp — một dấu hiệu đầu tiên cho khả năng ASI vươn xa hơn cả trí tuệ con người. Ông nhấn mạnh bước tiến này tuy nhỏ nhưng không thể ngó lơ, và do tiềm năng biến đổi xã hội cực lớn, Meta sẽ thận trọng hơn trong việc công bố các hệ thống mạnh nhất ra công chúng.',
+    link: 'https://www.livescience.com/technology/artificial-intelligence/meta-ai-takes-first-step-to-superintelligence-and-zuckerberg-will-no-longer-release-the-most-powerful-systems-to-the-public?utm_source=chatgpt.com',
     uid: 'blog-1',
   },
   {
-    title: 'Why I left my job to start my own company',
+    title: 'Claude Opus 4 đánh bại GPT-4.1: 72.5 % SWE-bench và cuộc chạy đua marathon 7 tiếng liên tục',
     description:
-      'A deep dive into my decision to leave my job and start my own company',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
+      'Anthropic vừa trình làng dòng Claude 4 gồm hai mẫu mới — Opus 4 và Sonnet 4 — trong một bước tiến đáng kể, nhất là cho các lập trình viên và kỹ sư phần mềm. Trong đó, Claude Opus 4 được xem như “người khổng lồ mới trong làng lập trình AI”',
+    link: 'https://www.itpro.com/software/development/anthropic-claude-opus-4-software-development?utm_source=chatgpt.com',
     uid: 'blog-2',
-  },
-  {
-    title: 'What I learned from my first year of freelancing',
-    description:
-      'A look back at my first year of freelancing and what I learned',
-    link: '/blog/exploring-the-intersection-of-design-ai-and-design-engineering',
-    uid: 'blog-3',
-  },
-  {
-    title: 'How to Export Metadata from MDX for Next.js SEO',
-    description: 'A guide on exporting metadata from MDX files to leverage Next.js SEO features.',
-    link: '/blog/example-mdx-metadata',
-    uid: 'blog-4',
   },
 ]
 
@@ -110,16 +105,16 @@ export const SOCIAL_LINKS: SocialLink[] = [
   },
   {
     label: 'Twitter',
-    link: 'https://twitter.com/ibelick',
+    link: 'https://hust.edu.vn/',
   },
   {
     label: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/ibelick',
+    link: 'https://hust.edu.vn/',
   },
   {
     label: 'Instagram',
-    link: 'https://www.instagram.com/ibelick',
+    link: 'https://hust.edu.vn/',
   },
 ]
 
-export const EMAIL = 'your@email.com'
+export const EMAIL = 'alexbkhn@gmail.com'
