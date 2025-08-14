@@ -49,8 +49,7 @@ export const PROJECTS: Project[] = [
     name: 'Ứng dụng AI trong cuộc sống',
     description: 'Sử dụng AI để học tập những điều mới mẻ mỗi ngày.',
     link: 'https://motion-primitives.com/',
-    video: 
-      'https://www.youtube.com/embed/nxsy7F4SUiQ?autoplay=1&mute=1&playlist=nxsy7F4SUiQ&loop=1',
+    video: 'https://www.youtube.com/embed/nxsy7F4SUiQ?rel=0&controls=0&autoplay=1&mute=1&playlist=nxsy7F4SUiQ&loop=1',
     id: 'project3',
   },
 ]
